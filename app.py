@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-MODEL_PATH = "/content/weather_classifier.keras"
+MODEL_PATH = "weather_classifier_small (1).h5"
 
 model = tf.keras.models.load_model(MODEL_PATH)
 
